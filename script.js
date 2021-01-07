@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function(){
     minusButton.addEventListener("click", function(e) {
         number = +number - +input.value;
         output.innerText = number;
-        if (number < 0) {
+        if (number < -1) {
             output.style.color = "red"
         } else if (number > 0) {
             output.style.color = "black"
