@@ -20,10 +20,11 @@ body {
    }
    
    #number {
-       border: 5px solid rgb(167, 167, 167);
+       border: 10px solid rgb(167, 167, 167);
        border-radius: 10px;
+       border-width: 4px;
        text-align: center;
-       padding: 10px 15px 10px 15px;
+       padding: 20px 15px 20px 15px;
        font-size: 12px;
-       width: 20px;
+       width: 35px;
    }
